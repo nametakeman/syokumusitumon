@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Clicks : MonoBehaviour
+public class BottanClickShoes : MonoBehaviour
 {
-
-    public void OnClickCharacter()
+    public void OnClickBottanShoes()
     {
-        ChangeScene;
+        ChangeScene();
     }
 
     void ChangeScene()
     {
-        SceneManager.LoadScene("Select");
+        SceneManager.LoadScene("Shoes");
     }
-}
 
+}
