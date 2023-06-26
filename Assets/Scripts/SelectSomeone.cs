@@ -13,8 +13,8 @@ public class SelectSomeone : MonoBehaviour
     //キャラクターが悪である確率
     public int Character1Pro;
 
-    public static bool Shoes;
-    public static bool Belt;
+    public static int Shoes;
+    public static int Belt;
 
     // Start is called before the first frame update
     void Start()
@@ -37,18 +37,18 @@ public class SelectSomeone : MonoBehaviour
 
                 //クツに刃物があるときpublic変数にどちらであるかを代入
                 if (WhereKnife == 1) {
-                    Shoes = true;
-                    Belt = false;
+                    Shoes = 0;
+                    Belt = 1;
                 }else if(WhereKnife == 2)
                 {
-                    Shoes = false;
-                    Belt = true;
+                    Shoes = 1;
+                    Belt = 0;
                 }
             }
             else
             {
-                Shoes=false;
-                Belt = false;
+                Shoes=1;
+                Belt = 1;
             }
            
         }

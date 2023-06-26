@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shoes.unity
     guid: e88ad1d7ff14f4c4a8ceab3045a199df
+  - enabled: 1
+    path: Assets/Scenes/Taiho.unity
+    guid: c0558c8f47e409d4780c810ccc3acf90
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: cb437e5206a3c6c40af2584ea04921f0
   m_configObjects: {}
