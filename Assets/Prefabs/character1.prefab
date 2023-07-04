@@ -100,7 +100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e58098a56000364ab5a40a22ff247d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectedCharacter: 0
 --- !u!60 &5528999895071862572
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -330,4 +329,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 540377e44f1aea249abe595ab53d0413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterSpeed: 0.08
+  CharacterSpeed: 0.1

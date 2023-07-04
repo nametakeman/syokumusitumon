@@ -236,8 +236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e91f07042c0d240bb49860d24ca6cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Limmit: 0
-  Timer: {fileID: 0}
+  Limmit: 
+  Timer_Object: {fileID: 467531506}
 --- !u!4 &344264241
 Transform:
   m_ObjectHideFlags: 0
