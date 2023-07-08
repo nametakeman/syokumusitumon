@@ -33,13 +33,13 @@ public class SelectSomeone : MonoBehaviour
             if (ZenAku <= Character1Pro)
             {
                 //値が1であるならクツ,2であるならベルトとする
-                int WhereKnife = Random.Range(1,2);
+                int WhereKnife = Random.Range(1,100);
 
                 //クツに刃物があるときpublic変数にどちらであるかを代入
-                if (WhereKnife == 1) {
+                if (WhereKnife <= 50) {
                     Shoes = 0;
                     Belt = 1;
-                }else if(WhereKnife == 2)
+                }else if(WhereKnife > 50)
                 {
                     Shoes = 1;
                     Belt = 0;

@@ -30,6 +30,11 @@ public class BottanExit : MonoBehaviour
             string NextScene = "Street";
             ChangeScene(NextScene);
         }
+        else if (NowScene == "End")
+        {
+            string NextScene = "StartMenu";
+            ChangeScene(NextScene);
+        }
 
     }
 

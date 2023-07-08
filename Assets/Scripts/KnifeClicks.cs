@@ -8,7 +8,8 @@ public class KnifeClicks : MonoBehaviour
     
     public void OnclickKnife()
     {
-        ChangeScene();
+        ChangeScene(); 
+
     }
 
     
