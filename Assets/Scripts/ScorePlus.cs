@@ -5,16 +5,16 @@ using UnityEngine;
 public class ScorePlus : MonoBehaviour
 {
 
-    float Score = StartClick.Score;
+    public static float Score;
 
-    int SelectCharacter = CharacterClicks1.SelectedCharacter;
+    int SelectCharacter = 1;
 
     // Start is called before the first frame update
     void Start()
     { 
         if(SelectCharacter == 1)
         {
-            Score += 2;
+            Score = 2;
         }
       
     }

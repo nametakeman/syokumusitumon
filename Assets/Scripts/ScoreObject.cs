@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreObject : MonoBehaviour
 {
 
-    float Score = StartClick.Score;
+    float Score = ScorePlus.Score;
 
     public GameObject Score_Object;
 

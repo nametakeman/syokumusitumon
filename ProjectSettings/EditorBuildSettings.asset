@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: cb437e5206a3c6c40af2584ea04921f0
+  - enabled: 1
     path: Assets/Scenes/Street.unity
     guid: 06a6d14aa8caa9443a138b1354739a33
   - enabled: 1
@@ -23,9 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Taiho.unity
     guid: c0558c8f47e409d4780c810ccc3acf90
-  - enabled: 1
-    path: Assets/Scenes/StartMenu.unity
-    guid: cb437e5206a3c6c40af2584ea04921f0
   - enabled: 1
     path: Assets/Scenes/End.unity
     guid: bf8c743200f88cc47ab22d6a76d586a5
